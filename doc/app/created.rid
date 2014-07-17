@@ -1,0 +1,8 @@
+Thu, 17 Jul 2014 15:07:05 -0400
+README.rdoc	Wed, 09 Jul 2014 13:28:32 -0400
+app/controllers/application_controller.rb	Wed, 09 Jul 2014 17:30:05 -0400
+app/controllers/events_controller.rb	Thu, 10 Jul 2014 10:24:16 -0400
+app/helpers/application_helper.rb	Wed, 09 Jul 2014 13:28:32 -0400
+app/helpers/events_helper.rb	Wed, 09 Jul 2014 16:38:25 -0400
+app/models/event.rb	Thu, 10 Jul 2014 10:24:42 -0400
+app/models/user.rb	Wed, 09 Jul 2014 17:35:18 -0400

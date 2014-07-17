@@ -1,0 +1,16 @@
+mysql_defaults: &mysql_defaults
+  adapter: mysql2
+  encoding: utf8
+  pool: 10
+  username: root
+  password: asdf 
+  host: localhost
+  
+development:
+  <<: *mysql_defaults
+  database: calendar_app
+  
+test: 
+  <<: *mysql_defaults
+  database: calendar_app
+  reconnect: true

@@ -1,0 +1,3724 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-09 14:19:09 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/railties-4.1.4/lib/rails/templates/rails/welcome/index.html.erb (1.5ms)
+Completed 200 OK in 26ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 15:45:42 -0400
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.4) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.4) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/yoshixtd/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/yoshixtd/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/yoshixtd/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.8ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2014-07-09 15:45:47 -0400
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.4) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.4) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/yoshixtd/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/yoshixtd/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/yoshixtd/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.3ms)
+
+
+Started GET "/calendar/events" for 127.0.0.1 at 2014-07-09 15:45:53 -0400
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.4) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.4) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/yoshixtd/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/yoshixtd/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/yoshixtd/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.1ms)
+  [1m[36m (149.2ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (300.0ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateEvents (20140709194507)
+  [1m[35m (75.7ms)[0m  CREATE TABLE `events` (`id` int(11) auto_increment PRIMARY KEY, `description` varchar(255), `date_time` datetime, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140709194507')
+  [1m[36m (43.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+
+
+Started GET "/calendar/events" for 127.0.0.1 at 2014-07-09 15:59:49 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+ActionController::RoutingError (No route matches [GET] "/calendar/events"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/yoshixtd/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/yoshixtd/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/yoshixtd/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.7ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.7ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 15:59:56 -0400
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.6ms)[0m  SELECT `events`.* FROM `events`
+  Rendered events/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 895ms (Views: 873.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 15:59:57 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 15:59:57 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 15:59:57 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 15:59:57 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 15:59:57 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 15:59:57 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 15:59:57 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 15:59:57 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 15:59:57 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 15:59:57 -0400
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-07-09 16:00:00 -0400
+Processing by EventsController#new as HTML
+  Rendered events/_form.html.erb (19.0ms)
+  Rendered events/new.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 30ms (Views: 26.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 16:04:27 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT `events`.* FROM `events`[0m
+  Rendered events/index.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 16:04:27 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 16:04:27 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 16:04:27 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 16:04:27 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 16:04:27 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 16:04:27 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 16:04:27 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 16:04:27 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 16:04:27 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 16:04:27 -0400
+
+
+Started GET "/stylesheets/application-print.css" for 127.0.0.1 at 2014-07-09 16:04:27 -0400
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application-print.css"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/yoshixtd/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/yoshixtd/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/yoshixtd/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.3ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 16:12:15 -0400
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT `events`.* FROM `events`
+  Rendered events/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 9ms
+
+SyntaxError (/home/yoshixtd/calendar/app/views/layouts/application.html.erb:10: `$(' is not allowed as a global variable name
+/home/yoshixtd/calendar/app/views/layouts/application.html.erb:10: syntax error, unexpected end-of-input, expecting ')'
+    $(document).on('ready page:load', function () {
+     ^):
+  app/views/layouts/application.html.erb:10: `$(' is not allowed as a global variable name
+  app/views/layouts/application.html.erb:10: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.7ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 16:19:13 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.7ms)[0m  [1mSELECT `events`.* FROM `events`[0m
+  Rendered events/index.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 8ms
+
+SyntaxError (/home/yoshixtd/calendar/app/views/layouts/application.html.erb:10: `$(' is not allowed as a global variable name
+/home/yoshixtd/calendar/app/views/layouts/application.html.erb:10: syntax error, unexpected end-of-input, expecting ')'
+    $(document).on('ready page:load', function () {
+     ^):
+  app/views/layouts/application.html.erb:10: `$(' is not allowed as a global variable name
+  app/views/layouts/application.html.erb:10: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.2ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 16:19:26 -0400
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT `events`.* FROM `events`
+  Rendered events/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 49ms (Views: 47.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 16:19:26 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 16:19:26 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 16:19:26 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 16:19:26 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 16:19:26 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 16:19:26 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 16:19:26 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 16:19:26 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 16:19:26 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 16:19:26 -0400
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 16:23:02 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT `events`.* FROM `events`[0m
+  Rendered events/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 16:23:02 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 16:23:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 16:23:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 16:23:02 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 16:23:02 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 16:23:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 16:23:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 16:23:02 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 16:23:02 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 16:23:02 -0400
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 16:28:20 -0400
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT `events`.* FROM `events`
+  Rendered events/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 16:28:20 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 16:28:20 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 16:28:20 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 16:28:20 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 16:28:20 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 16:28:20 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 16:28:20 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 16:28:20 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 16:28:20 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 16:28:20 -0400
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 16:29:11 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT `events`.* FROM `events`[0m
+  Rendered events/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 16:29:11 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 16:29:11 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 16:29:11 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 16:29:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 16:29:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 16:29:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 16:29:11 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 16:29:11 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 16:29:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 16:29:11 -0400
+  [1m[36m (182.8ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (367.0ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateEvents (20140709203825)
+  [1m[35m (76.8ms)[0m  CREATE TABLE `events` (`id` int(11) auto_increment PRIMARY KEY, `title` varchar(255), `description` text, `start_time` datetime, `end_time` datetime, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140709203825')
+  [1m[36m (34.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 16:40:19 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.4ms)[0m  SELECT `events`.* FROM `events`
+  Rendered events/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 201ms (Views: 178.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 16:40:20 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 16:40:20 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 16:40:20 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 16:40:20 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 16:40:20 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 16:40:20 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 16:40:20 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 16:40:20 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 16:40:20 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 16:40:20 -0400
+
+
+Started GET "/events.json" for 127.0.0.1 at 2014-07-09 16:47:57 -0400
+Processing by EventsController#index as JSON
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT `events`.* FROM `events`[0m
+  Rendered events/index.json.jbuilder (191.1ms)
+Completed 200 OK in 195ms (Views: 194.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 16:50:53 -0400
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT `events`.* FROM `events`
+  Rendered events/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 16:50:54 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 16:50:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 16:50:54 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 16:50:54 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 16:50:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 16:50:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 16:50:54 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 16:50:54 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 16:50:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 16:50:54 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404939054080" for 127.0.0.1 at 2014-07-09 16:50:54 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404939054080"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT `events`.* FROM `events`[0m
+  Rendered events/index.json.jbuilder (1.4ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-07-09 16:50:58 -0400
+Processing by EventsController#new as HTML
+  Rendered events/_form.html.erb (233.6ms)
+  Rendered events/new.html.erb within layouts/application (239.4ms)
+Completed 200 OK in 248ms (Views: 244.9ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/events" for 127.0.0.1 at 2014-07-09 16:51:06 -0400
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ee+qjl/RfM+hBw4f1EOXACS7dzW87yWdEoXT7eAgFWk=", "event"=>{"title"=>"asdf", "description"=>"sdfasdfsadf", "start_time(1i)"=>"2014", "start_time(2i)"=>"7", "start_time(3i)"=>"9", "start_time(4i)"=>"20", "start_time(5i)"=>"50", "end_time(1i)"=>"2014", "end_time(2i)"=>"7", "end_time(3i)"=>"9", "end_time(4i)"=>"20", "end_time(5i)"=>"50"}, "commit"=>"Create Event"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `events` (`created_at`, `description`, `end_time`, `start_time`, `title`, `updated_at`) VALUES ('2014-07-09 20:51:06', 'sdfasdfsadf', '2014-07-09 20:50:00', '2014-07-09 20:50:00', 'asdf', '2014-07-09 20:51:06')[0m
+  [1m[35m (221.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/events/1
+Completed 302 Found in 227ms (ActiveRecord: 221.7ms)
+
+
+Started GET "/events/1" for 127.0.0.1 at 2014-07-09 16:51:07 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT  `events`.* FROM `events`  WHERE `events`.`id` = 1 LIMIT 1[0m
+  Rendered events/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 12ms (Views: 8.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 16:51:07 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 16:51:07 -0400
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 16:51:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 16:51:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 16:51:07 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 16:51:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 16:51:07 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 16:51:07 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 16:51:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 16:51:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 16:51:07 -0400
+
+
+Started GET "/events/" for 127.0.0.1 at 2014-07-09 16:51:11 -0400
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.4ms)[0m  SELECT `events`.* FROM `events`
+  Rendered events/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 16:51:11 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 16:51:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 16:51:11 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 16:51:12 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 16:51:12 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 16:51:12 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 16:51:12 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 16:51:12 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 16:51:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 16:51:12 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404939072030" for 127.0.0.1 at 2014-07-09 16:51:12 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404939072030"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT `events`.* FROM `events`[0m
+  Rendered events/index.json.jbuilder (2.0ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/1.html" for 127.0.0.1 at 2014-07-09 17:11:20 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mEvent Load (0.3ms)[0m  SELECT  `events`.* FROM `events`  WHERE `events`.`id` = 1 LIMIT 1
+  Rendered events/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 18ms (Views: 12.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/" for 127.0.0.1 at 2014-07-09 17:11:51 -0400
+Processing by EventsController#index as HTML
+  Rendered events/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 17:11:51 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 17:11:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 17:11:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 17:11:51 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 17:11:51 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 17:11:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 17:11:51 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 17:11:51 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 17:11:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 17:11:51 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404940311948" for 127.0.0.1 at 2014-07-09 17:11:52 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404940311948"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT `events`.* FROM `events`[0m
+  Rendered events/index.json.jbuilder (1.9ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/" for 127.0.0.1 at 2014-07-09 17:12:12 -0400
+Processing by EventsController#index as HTML
+  Rendered events/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 17:12:12 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 17:12:12 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 17:12:12 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 17:12:12 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 17:12:12 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 17:12:12 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 17:12:12 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 17:12:12 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 17:12:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 17:12:12 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 17:12:12 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404940332929" for 127.0.0.1 at 2014-07-09 17:12:13 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404940332929"}
+  [1m[35mEvent Load (0.2ms)[0m  SELECT `events`.* FROM `events`
+  Rendered events/index.json.jbuilder (1.9ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/" for 127.0.0.1 at 2014-07-09 17:13:15 -0400
+Processing by EventsController#index as HTML
+  Rendered events/index.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (/home/yoshixtd/calendar/app/views/events/index.html.erb:2: syntax error, unexpected '='
+...;@output_buffer.append=( class="fc-button" link_to 'New Even...
+...                               ^
+/home/yoshixtd/calendar/app/views/events/index.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting ')'
+...end=( class="fc-button" link_to 'New Event', new_event_path ...
+...                               ^):
+  app/views/events/index.html.erb:2: syntax error, unexpected '='
+  app/views/events/index.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting ')'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.2ms)
+
+
+Started GET "/events/" for 127.0.0.1 at 2014-07-09 17:13:29 -0400
+Processing by EventsController#index as HTML
+  Rendered events/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 17:13:29 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 17:13:29 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 17:13:29 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 17:13:29 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 17:13:29 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 17:13:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 17:13:29 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 17:13:29 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 17:13:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 17:13:29 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404940409365" for 127.0.0.1 at 2014-07-09 17:13:29 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404940409365"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT `events`.* FROM `events`[0m
+  Rendered events/index.json.jbuilder (1.7ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to DeviseCreateUsers (20140709212605)
+  [1m[35m (452.6ms)[0m  CREATE TABLE `users` (`id` int(11) auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (622.3ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) [0m
+  [1m[35m (154.9ms)[0m  CREATE UNIQUE INDEX `index_users_on_reset_password_token`  ON `users` (`reset_password_token`) 
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140709212605')
+  [1m[36m (36.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-07-09 17:27:33 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/shared/_links.erb (1.4ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/registrations/new.html.erb within layouts/application (261.4ms)
+Completed 200 OK in 348ms (Views: 314.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 17:27:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 17:27:33 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 17:27:34 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 17:27:34 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 17:27:34 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 17:27:34 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 17:27:34 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 17:27:34 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 17:27:34 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 17:27:34 -0400
+
+
+Started POST "/users" for 127.0.0.1 at 2014-07-09 17:27:56 -0400
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ee+qjl/RfM+hBw4f1EOXACS7dzW87yWdEoXT7eAgFWk=", "user"=>{"email"=>"asdf@asdf.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (15.6ms)[0m  [1mSELECT  1 AS one FROM `users`  WHERE `users`.`email` = BINARY 'asdf@asdf.com' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/shared/_links.erb (0.3ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/registrations/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 227ms (Views: 11.6ms | ActiveRecord: 16.3ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 17:27:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 17:27:56 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 17:27:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 17:27:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 17:27:56 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 17:27:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 17:27:56 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 17:27:56 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 17:27:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 17:27:56 -0400
+
+
+Started POST "/users" for 127.0.0.1 at 2014-07-09 17:28:06 -0400
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ee+qjl/RfM+hBw4f1EOXACS7dzW87yWdEoXT7eAgFWk=", "user"=>{"email"=>"asdf@asdf.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM `users`  WHERE `users`.`email` = BINARY 'asdf@asdf.com' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `users` (`created_at`, `email`, `encrypted_password`, `updated_at`) VALUES ('2014-07-09 21:28:06', 'asdf@asdf.com', '$2a$10$N5JYvA6gbkm9J3HlE/HaWOQpWRuJAF5S.Vd6e8IfIhCa.j.54Z4Vm', '2014-07-09 21:28:06')[0m
+  [1m[35m (283.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (211.2ms)[0m  UPDATE `users` SET `current_sign_in_at` = '2014-07-09 21:28:06', `current_sign_in_ip` = '127.0.0.1', `last_sign_in_at` = '2014-07-09 21:28:06', `last_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2014-07-09 21:28:06' WHERE `users`.`id` = 1
+  [1m[36m (222.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 843ms (ActiveRecord: 718.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-09 17:28:07 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/railties-4.1.4/lib/rails/templates/rails/welcome/index.html.erb (0.9ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 17:28:12 -0400
+Processing by EventsController#index as HTML
+  Rendered events/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 14ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 17:28:12 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 17:28:12 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 17:28:12 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 17:28:12 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 17:28:12 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 17:28:12 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 17:28:12 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 17:28:12 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 17:28:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 17:28:12 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404941292661" for 127.0.0.1 at 2014-07-09 17:28:12 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404941292661"}
+  [1m[35mEvent Load (0.2ms)[0m  SELECT `events`.* FROM `events`
+  Rendered events/index.json.jbuilder (68.1ms)
+Completed 200 OK in 73ms (Views: 13.7ms | ActiveRecord: 58.3ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 17:30:13 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 56ms (Views: 8.7ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 17:30:13 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 17:30:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 17:30:13 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 17:30:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 17:30:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 17:30:13 -0400
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 17:30:13 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 17:30:13 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 17:30:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 17:30:13 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404941413443" for 127.0.0.1 at 2014-07-09 17:30:13 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404941413443"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT `events`.* FROM `events`[0m
+  Rendered events/index.json.jbuilder (11.4ms)
+Completed 200 OK in 18ms (Views: 13.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/events/1.html" for 127.0.0.1 at 2014-07-09 17:32:27 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  `events`.* FROM `events`  WHERE `events`.`id` = 1 LIMIT 1[0m
+  Rendered events/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 17:32:36 -0400
+Processing by EventsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 16ms (Views: 13.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 17:32:39 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 9.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 17:32:39 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 17:32:39 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 17:32:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 17:32:39 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 17:32:39 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 17:32:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 17:32:39 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 17:32:39 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 17:32:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 17:32:39 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404941559891" for 127.0.0.1 at 2014-07-09 17:32:39 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404941559891"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT `events`.* FROM `events`[0m
+  Rendered events/index.json.jbuilder (2.3ms)
+Completed 200 OK in 9ms (Views: 6.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/events/" for 127.0.0.1 at 2014-07-09 17:35:42 -0400
+Processing by EventsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 32ms (Views: 12.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 17:35:42 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 17:35:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 17:35:42 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 17:35:42 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 17:35:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 17:35:42 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 17:35:42 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 17:35:42 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 17:35:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 17:35:42 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404941742385" for 127.0.0.1 at 2014-07-09 17:35:42 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404941742385"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mEvent Load (0.2ms)[0m  SELECT `events`.* FROM `events`
+  Rendered events/index.json.jbuilder (10.4ms)
+Completed 200 OK in 17ms (Views: 13.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-07-09 17:35:44 -0400
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/_form.html.erb (25.6ms)
+  Rendered events/new.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 40ms (Views: 37.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-07-09 17:36:46 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by EventsController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/_form.html.erb (41.0ms)
+  Rendered events/new.html.erb within layouts/application (44.8ms)
+Completed 200 OK in 145ms (Views: 98.2ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 17:36:46 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 17:36:46 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 17:36:46 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 17:36:46 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 17:36:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 17:36:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 17:36:46 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 17:36:46 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 17:36:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 17:36:46 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddUserIdToEvents (20140709214159)
+  [1m[35m (329.5ms)[0m  ALTER TABLE `events` ADD `user_id` int(11)
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140709214159')
+  [1m[36m (35.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-07-09 17:45:32 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by EventsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/_form.html.erb (42.6ms)
+  Rendered events/new.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 150ms (Views: 97.6ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 17:45:32 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 17:45:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 17:45:32 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 17:45:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 17:45:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 17:45:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 17:45:32 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 17:45:32 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 17:45:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 17:45:32 -0400
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 17:45:52 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 17:45:52 -0400
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 17:45:52 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 17:45:52 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 17:45:52 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 17:45:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 17:45:52 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 17:45:52 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 17:45:52 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 17:45:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 17:45:52 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404942352595" for 127.0.0.1 at 2014-07-09 17:45:52 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404942352595"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT `events`.* FROM `events`[0m
+  Rendered events/index.json.jbuilder (4.0ms)
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-07-09 17:45:54 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ee+qjl/RfM+hBw4f1EOXACS7dzW87yWdEoXT7eAgFWk="}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-09 17:45:54 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/railties-4.1.4/lib/rails/templates/rails/welcome/index.html.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 17:46:03 -0400
+Processing by EventsController#index as HTML
+Completed 401 Unauthorized in 11ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-07-09 17:46:03 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/shared/_links.erb (3.9ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (248.3ms)
+Completed 200 OK in 262ms (Views: 259.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 17:46:03 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 17:46:03 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 17:46:03 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 17:46:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 17:46:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 17:46:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 17:46:03 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 17:46:03 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 17:46:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 17:46:03 -0400
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-07-09 17:46:14 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v6ES0wuAK2R/xFMzS2xNCuVXQ0hBxQCViRbVKFLftz4=", "user"=>{"email"=>"asdf@asdf.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`email` = 'asdf@asdf.com'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE `users` SET `remember_created_at` = '2014-07-09 21:46:14', `updated_at` = '2014-07-09 21:46:14' WHERE `users`.`id` = 1[0m
+  [1m[35m (180.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE `users` SET `current_sign_in_at` = '2014-07-09 21:46:14', `sign_in_count` = 2, `updated_at` = '2014-07-09 21:46:14' WHERE `users`.`id` = 1
+  [1m[36m (40.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/events
+Completed 302 Found in 353ms (ActiveRecord: 221.9ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 17:46:14 -0400
+Processing by EventsController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 17:46:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 17:46:14 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 17:46:14 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 17:46:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 17:46:14 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 17:46:14 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 17:46:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 17:46:14 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 17:46:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 17:46:14 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404942374947" for 127.0.0.1 at 2014-07-09 17:46:15 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404942374947"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mEvent Load (0.2ms)[0m  SELECT `events`.* FROM `events`
+  Rendered events/index.json.jbuilder (1.8ms)
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/1.html" for 127.0.0.1 at 2014-07-09 17:46:19 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mEvent Load (0.4ms)[0m  SELECT  `events`.* FROM `events`  WHERE `events`.`id` = 1 LIMIT 1
+  Rendered events/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 22ms (Views: 16.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2014-07-09 17:47:09 -0400
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/registrations/edit.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 29ms (Views: 23.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/1.html" for 127.0.0.1 at 2014-07-09 17:47:13 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  `events`.* FROM `events`  WHERE `events`.`id` = 1 LIMIT 1[0m
+  Rendered events/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23ms (Views: 18.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/events/" for 127.0.0.1 at 2014-07-09 17:47:18 -0400
+Processing by EventsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 17:47:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 17:47:18 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 17:47:18 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 17:47:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 17:47:18 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 17:47:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 17:47:18 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 17:47:18 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 17:47:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 17:47:18 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404942438759" for 127.0.0.1 at 2014-07-09 17:47:18 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404942438759"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mEvent Load (0.2ms)[0m  SELECT `events`.* FROM `events`
+  Rendered events/index.json.jbuilder (2.1ms)
+Completed 200 OK in 9ms (Views: 6.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/events/" for 127.0.0.1 at 2014-07-09 17:52:54 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 6.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 17:52:54 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 17:52:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 17:52:54 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 17:52:54 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 17:52:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 17:52:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 17:52:54 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 17:52:54 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 17:52:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 17:52:54 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404942774331" for 127.0.0.1 at 2014-07-09 17:52:54 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404942774331"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT `events`.* FROM `events`[0m
+  Rendered events/index.json.jbuilder (11.4ms)
+Completed 200 OK in 18ms (Views: 14.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-07-09 17:52:56 -0400
+Processing by EventsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/_form.html.erb (23.2ms)
+  Rendered events/new.html.erb within layouts/application (26.1ms)
+Completed 200 OK in 35ms (Views: 32.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-07-09 17:53:04 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by EventsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/_form.html.erb (45.2ms)
+  Rendered events/new.html.erb within layouts/application (49.1ms)
+Completed 200 OK in 139ms (Views: 94.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 17:53:04 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 17:53:04 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 17:53:04 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 17:53:04 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 17:53:04 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 17:53:04 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 17:53:04 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 17:53:04 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 17:53:04 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 17:53:04 -0400
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 17:53:07 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 18ms (Views: 14.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 17:53:10 -0400
+Processing by EventsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 17:53:10 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 17:53:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 17:53:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 17:53:10 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 17:53:10 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 17:53:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 17:53:10 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 17:53:10 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 17:53:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 17:53:10 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404942790256" for 127.0.0.1 at 2014-07-09 17:53:10 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404942790256"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mEvent Load (0.1ms)[0m  SELECT `events`.* FROM `events`
+  Rendered events/index.json.jbuilder (5.1ms)
+Completed 200 OK in 12ms (Views: 8.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-07-09 17:53:15 -0400
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/_form.html.erb (27.5ms)
+  Rendered events/new.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 38ms (Views: 35.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-07-09 18:28:36 -0400
+Processing by EventsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/_form.html.erb (12.2ms)
+  Rendered events/new.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 25ms (Views: 21.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 18:28:36 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 18:28:36 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 18:28:36 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 18:28:36 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 18:28:36 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 18:28:36 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 18:28:36 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 18:28:36 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 18:28:36 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 18:28:36 -0400
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-07-09 18:30:16 -0400
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 500 Internal Server Error in 21ms
+
+ArgumentError (You need to supply at least one attribute):
+  app/models/event.rb:3:in `<class:Event>'
+  app/models/event.rb:1:in `<top (required)>'
+  app/controllers/events_controller.rb:17:in `new'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.6ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-07-09 18:30:55 -0400
+Processing by EventsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/_form.html.erb (16.7ms)
+  Rendered events/new.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 43ms (Views: 24.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 18:30:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 18:30:55 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 18:30:55 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 18:30:55 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 18:30:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 18:30:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 18:30:55 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 18:30:55 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 18:30:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 18:30:55 -0400
+
+
+Started POST "/events" for 127.0.0.1 at 2014-07-09 18:31:04 -0400
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6t+8lcpfMr7twUA+ImcjP3PhTLLrx1dbFNTElT81qI4=", "event"=>{"title"=>"", "description"=>"", "start_time(1i)"=>"2014", "start_time(2i)"=>"7", "start_time(3i)"=>"9", "start_time(4i)"=>"22", "start_time(5i)"=>"30", "end_time(1i)"=>"2014", "end_time(2i)"=>"7", "end_time(3i)"=>"9", "end_time(4i)"=>"22", "end_time(5i)"=>"30"}, "commit"=>"Create Event"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.7ms)[0m  [1mROLLBACK[0m
+  Rendered events/_form.html.erb (12.6ms)
+  Rendered events/new.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 32ms (Views: 22.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 18:31:05 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 18:31:05 -0400
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 18:31:05 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 18:31:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 18:31:05 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 18:31:05 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 18:31:05 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 18:31:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 18:31:05 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 18:31:05 -0400
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 18:38:32 -0400
+Processing by EventsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 50ms (Views: 6.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 18:38:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 18:38:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 18:38:32 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 18:38:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 18:38:32 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 18:38:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 18:38:32 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 18:38:33 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 18:38:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 18:38:33 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404945513040" for 127.0.0.1 at 2014-07-09 18:38:33 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404945513040"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mEvent Load (0.2ms)[0m  SELECT `events`.* FROM `events`
+  Rendered events/index.json.jbuilder (13.3ms)
+Completed 200 OK in 20ms (Views: 16.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-07-09 18:38:35 -0400
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/_form.html.erb (21.7ms)
+  Rendered events/new.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 40ms (Views: 35.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/events" for 127.0.0.1 at 2014-07-09 18:38:38 -0400
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6t+8lcpfMr7twUA+ImcjP3PhTLLrx1dbFNTElT81qI4=", "event"=>{"title"=>"", "description"=>"", "start_time(1i)"=>"2014", "start_time(2i)"=>"7", "start_time(3i)"=>"9", "start_time(4i)"=>"22", "start_time(5i)"=>"38", "end_time(1i)"=>"2014", "end_time(2i)"=>"7", "end_time(3i)"=>"9", "end_time(4i)"=>"22", "end_time(5i)"=>"38"}, "commit"=>"Create Event"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered events/_form.html.erb (15.2ms)
+  Rendered events/new.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 34ms (Views: 27.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 18:38:38 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 18:38:38 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 18:38:38 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 18:38:38 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 18:38:38 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 18:38:38 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 18:38:38 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 18:38:38 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 18:38:38 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 18:38:38 -0400
+
+
+Started POST "/events" for 127.0.0.1 at 2014-07-09 18:38:59 -0400
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6t+8lcpfMr7twUA+ImcjP3PhTLLrx1dbFNTElT81qI4=", "event"=>{"title"=>"fffff", "description"=>"ffff", "start_time(1i)"=>"2014", "start_time(2i)"=>"7", "start_time(3i)"=>"9", "start_time(4i)"=>"22", "start_time(5i)"=>"38", "end_time(1i)"=>"2014", "end_time(2i)"=>"7", "end_time(3i)"=>"9", "end_time(4i)"=>"22", "end_time(5i)"=>"38"}, "commit"=>"Create Event"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `events` (`created_at`, `description`, `end_time`, `start_time`, `title`, `updated_at`) VALUES ('2014-07-09 22:38:59', 'ffff', '2014-07-09 22:38:00', '2014-07-09 22:38:00', 'fffff', '2014-07-09 22:38:59')[0m
+  [1m[35m (192.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/events/2
+Completed 302 Found in 221ms (ActiveRecord: 197.6ms)
+
+
+Started GET "/events/2" for 127.0.0.1 at 2014-07-09 18:38:59 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mEvent Load (0.2ms)[0m  SELECT  `events`.* FROM `events`  WHERE `events`.`id` = 2 LIMIT 1
+  Rendered events/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 18:38:59 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 18:38:59 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 18:38:59 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 18:38:59 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 18:38:59 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 18:38:59 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 18:38:59 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 18:38:59 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 18:38:59 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 18:38:59 -0400
+
+
+Started GET "/events/" for 127.0.0.1 at 2014-07-09 18:39:58 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 6.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 18:39:58 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 18:39:58 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 18:39:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 18:39:58 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 18:39:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 18:39:58 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 18:39:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 18:39:58 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 18:39:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 18:39:58 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404945598923" for 127.0.0.1 at 2014-07-09 18:39:59 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404945598923"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT `events`.* FROM `events`[0m
+  Rendered events/index.json.jbuilder (14.0ms)
+Completed 200 OK in 22ms (Views: 16.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-07-09 18:40:02 -0400
+Processing by EventsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/_form.html.erb (18.3ms)
+  Rendered events/new.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 33ms (Views: 30.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/events" for 127.0.0.1 at 2014-07-09 18:40:07 -0400
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6t+8lcpfMr7twUA+ImcjP3PhTLLrx1dbFNTElT81qI4=", "event"=>{"title"=>"iiii", "description"=>"iiii", "start_time(1i)"=>"2014", "start_time(2i)"=>"7", "start_time(3i)"=>"9", "start_time(4i)"=>"22", "start_time(5i)"=>"40", "end_time(1i)"=>"2014", "end_time(2i)"=>"7", "end_time(3i)"=>"9", "end_time(4i)"=>"22", "end_time(5i)"=>"40"}, "commit"=>"Create Event"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `events` (`created_at`, `description`, `end_time`, `start_time`, `title`, `updated_at`) VALUES ('2014-07-09 22:40:07', 'iiii', '2014-07-09 22:40:00', '2014-07-09 22:40:00', 'iiii', '2014-07-09 22:40:07')[0m
+  [1m[35m (229.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/events/3
+Completed 302 Found in 237ms (ActiveRecord: 230.4ms)
+
+
+Started GET "/events/3" for 127.0.0.1 at 2014-07-09 18:40:07 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mEvent Load (0.4ms)[0m  SELECT  `events`.* FROM `events`  WHERE `events`.`id` = 3 LIMIT 1
+  Rendered events/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 6.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 18:40:07 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 18:40:07 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 18:40:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 18:40:07 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 18:40:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 18:40:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 18:40:07 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 18:40:07 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 18:40:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 18:40:07 -0400
+
+
+Started GET "/events/" for 127.0.0.1 at 2014-07-09 18:40:41 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 7.6ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 18:40:41 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 18:40:41 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 18:40:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 18:40:41 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 18:40:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 18:40:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 18:40:41 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 18:40:41 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 18:40:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 18:40:41 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404945642014" for 127.0.0.1 at 2014-07-09 18:40:42 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404945642014"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT `events`.* FROM `events`[0m
+  Rendered events/index.json.jbuilder (13.5ms)
+Completed 200 OK in 20ms (Views: 15.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-07-09 18:40:44 -0400
+Processing by EventsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/_form.html.erb (16.1ms)
+  Rendered events/new.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 31ms (Views: 27.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/events" for 127.0.0.1 at 2014-07-09 18:40:51 -0400
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6t+8lcpfMr7twUA+ImcjP3PhTLLrx1dbFNTElT81qI4=", "event"=>{"title"=>"oooo", "description"=>"oooo", "start_time(1i)"=>"2014", "start_time(2i)"=>"7", "start_time(3i)"=>"9", "start_time(4i)"=>"22", "start_time(5i)"=>"40", "end_time(1i)"=>"2014", "end_time(2i)"=>"7", "end_time(3i)"=>"9", "end_time(4i)"=>"22", "end_time(5i)"=>"40"}, "commit"=>"Create Event"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `events` (`created_at`, `description`, `end_time`, `start_time`, `title`, `updated_at`) VALUES ('2014-07-09 22:40:51', 'oooo', '2014-07-09 22:40:00', '2014-07-09 22:40:00', 'oooo', '2014-07-09 22:40:51')[0m
+  [1m[35m (262.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/events/4
+Completed 302 Found in 273ms (ActiveRecord: 263.8ms)
+
+
+Started GET "/events/4" for 127.0.0.1 at 2014-07-09 18:40:51 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mEvent Load (0.3ms)[0m  SELECT  `events`.* FROM `events`  WHERE `events`.`id` = 4 LIMIT 1
+  Rendered events/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 18:40:51 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 18:40:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 18:40:51 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 18:40:51 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 18:40:51 -0400
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 18:40:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 18:40:51 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 18:40:51 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 18:40:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 18:40:51 -0400
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 18:51:11 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by EventsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 118ms (Views: 67.1ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 18:51:11 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 18:51:11 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 18:51:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 18:51:11 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 18:51:11 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 18:51:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 18:51:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 18:51:11 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 18:51:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 18:51:11 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404946271527" for 127.0.0.1 at 2014-07-09 18:51:11 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404946271527"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mEvent Load (0.4ms)[0m  SELECT `events`.* FROM `events`
+  Rendered events/index.json.jbuilder (16.8ms)
+Completed 200 OK in 24ms (Views: 19.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-07-09 18:51:13 -0400
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/_form.html.erb (48.3ms)
+  Rendered events/new.html.erb within layouts/application (51.5ms)
+Completed 200 OK in 60ms (Views: 57.4ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/events" for 127.0.0.1 at 2014-07-09 18:51:18 -0400
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6t+8lcpfMr7twUA+ImcjP3PhTLLrx1dbFNTElT81qI4=", "event"=>{"title"=>"fghfdgh", "description"=>"fghfdgh", "start_time(1i)"=>"2014", "start_time(2i)"=>"7", "start_time(3i)"=>"9", "start_time(4i)"=>"22", "start_time(5i)"=>"51", "end_time(1i)"=>"2014", "end_time(2i)"=>"7", "end_time(3i)"=>"9", "end_time(4i)"=>"22", "end_time(5i)"=>"51"}, "commit"=>"Create Event"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `events` (`created_at`, `description`, `end_time`, `start_time`, `title`, `updated_at`) VALUES ('2014-07-09 22:51:18', 'fghfdgh', '2014-07-09 22:51:00', '2014-07-09 22:51:00', 'fghfdgh', '2014-07-09 22:51:18')
+  [1m[36m (281.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (231.7ms)[0m  UPDATE `events` SET `events`.`user_id` = 1 WHERE `events`.`id` = 5
+Redirected to http://localhost:3000/events/5
+Completed 302 Found in 523ms (ActiveRecord: 514.2ms)
+
+
+Started GET "/events/5" for 127.0.0.1 at 2014-07-09 18:51:18 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mEvent Load (0.3ms)[0m  SELECT  `events`.* FROM `events`  WHERE `events`.`id` = 5 LIMIT 1
+  Rendered events/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 11ms (Views: 7.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 18:51:18 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 18:51:19 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 18:51:19 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 18:51:19 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 18:51:19 -0400
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 18:51:19 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 18:51:19 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 18:51:19 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 18:51:19 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 18:51:19 -0400
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-09 18:55:05 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-09 18:55:05 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 18:55:05 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-09 18:55:05 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-09 18:55:05 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 18:55:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 18:55:05 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 18:55:05 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-09 18:55:05 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-09 18:55:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 18:55:05 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404946505237" for 127.0.0.1 at 2014-07-09 18:55:05 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404946505237"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT `events`.* FROM `events`[0m
+  Rendered events/index.json.jbuilder (6.3ms)
+Completed 200 OK in 13ms (Views: 9.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/events/1.html" for 127.0.0.1 at 2014-07-09 18:55:09 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT  `events`.* FROM `events`  WHERE `events`.`id` = 1 LIMIT 1[0m
+  Rendered events/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 10.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-10 09:31:30 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by EventsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 378ms (Views: 279.9ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 09:31:31 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 09:31:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 09:31:31 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 09:31:31 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 09:31:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 09:31:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 09:31:31 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 09:31:31 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 09:31:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 09:31:31 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404999091985" for 127.0.0.1 at 2014-07-10 09:31:32 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404999091985"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.json.jbuilder (8.3ms)
+Completed 500 Internal Server Error in 63ms
+
+ActionView::Template::Error (undefined method `id' for [:conditions, {:user_id=>1}]:Array):
+    1: json.array!(@events) do |event|
+    2:   json.extract! event, :id, :title, :description
+    3:   json.start event.start_time
+    4:   json.end event.end_time
+    5:   json.url event_url(event, format: :html)
+  app/views/events/index.json.jbuilder:2:in `block in _app_views_events_index_json_jbuilder___3961859352333608456_50204460'
+  app/views/events/index.json.jbuilder:1:in `_app_views_events_index_json_jbuilder___3961859352333608456_50204460'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb (11.5ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-07-10 09:31:34 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"6t+8lcpfMr7twUA+ImcjP3PhTLLrx1dbFNTElT81qI4="}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (60.6ms)[0m  UPDATE `users` SET `remember_created_at` = NULL, `updated_at` = '2014-07-10 13:31:34' WHERE `users`.`id` = 1
+  [1m[36m (115.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:8000/
+Completed 302 Found in 290ms (ActiveRecord: 176.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 09:31:34 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/railties-4.1.4/lib/rails/templates/rails/welcome/index.html.erb (1.0ms)
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-10 09:31:41 -0400
+Processing by EventsController#index as HTML
+Completed 401 Unauthorized in 12ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-07-10 09:31:41 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/shared/_links.erb (1.6ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (576.7ms)
+Completed 200 OK in 1085ms (Views: 981.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 09:31:42 -0400
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-07-10 09:31:46 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/shared/_links.erb (0.4ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/registrations/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-07-10 09:31:56 -0400
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uQXyVrQInaMcL1EvI1RUQOqLd5No5IOhaiujXIyJI0I=", "user"=>{"email"=>"new@new.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (117.0ms)[0m  [1mSELECT  1 AS one FROM `users`  WHERE `users`.`email` = BINARY 'new@new.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/shared/_links.erb (0.7ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/registrations/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 904ms (Views: 18.1ms | ActiveRecord: 117.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 09:31:57 -0400
+
+
+Started POST "/users" for 127.0.0.1 at 2014-07-10 09:32:06 -0400
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uQXyVrQInaMcL1EvI1RUQOqLd5No5IOhaiujXIyJI0I=", "user"=>{"email"=>"new@new.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM `users`  WHERE `users`.`email` = BINARY 'new@new.com' LIMIT 1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `users` (`created_at`, `email`, `encrypted_password`, `updated_at`) VALUES ('2014-07-10 13:32:06', 'new@new.com', '$2a$10$3N9pbcfyCHNJtp81jLp2z.kNv/gVnnr/q.dTd.LYb1n7EvWpklRZ2', '2014-07-10 13:32:06')[0m
+  [1m[35m (151.7ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (23.9ms)[0m  UPDATE `users` SET `current_sign_in_at` = '2014-07-10 13:32:06', `current_sign_in_ip` = '127.0.0.1', `last_sign_in_at` = '2014-07-10 13:32:06', `last_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2014-07-10 13:32:06' WHERE `users`.`id` = 2
+  [1m[36m (36.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:8000/events
+Completed 302 Found in 335ms (ActiveRecord: 213.5ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-10 09:32:06 -0400
+Processing by EventsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 09:32:06 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1404999126621" for 127.0.0.1 at 2014-07-10 09:32:06 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1404999126621"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.json.jbuilder (1.2ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `id' for [:conditions, {:user_id=>2}]:Array):
+    1: json.array!(@events) do |event|
+    2:   json.extract! event, :id, :title, :description
+    3:   json.start event.start_time
+    4:   json.end event.end_time
+    5:   json.url event_url(event, format: :html)
+  app/views/events/index.json.jbuilder:2:in `block in _app_views_events_index_json_jbuilder___3961859352333608456_50204460'
+  app/views/events/index.json.jbuilder:1:in `_app_views_events_index_json_jbuilder___3961859352333608456_50204460'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb (11.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-07-10 09:47:19 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"uQXyVrQInaMcL1EvI1RUQOqLd5No5IOhaiujXIyJI0I="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:8000/
+Completed 302 Found in 8ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 09:47:19 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/railties-4.1.4/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 09:50:12 -0400
+
+ArgumentError (Missing :action key on routes definition, please check your routes.):
+  config/routes.rb:9:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 09:50:23 -0400
+Processing by EventsController#index as HTML
+Completed 401 Unauthorized in 4ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-07-10 09:50:23 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 25ms (Views: 11.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 09:50:23 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 09:50:23 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 09:50:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 09:50:23 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 09:50:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 09:50:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 09:50:23 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 09:50:23 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 09:50:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 09:50:23 -0400
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-07-10 09:53:19 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/registrations/new.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 32ms (Views: 28.1ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-07-10 10:01:27 -0400
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nh+saGMupw5bv4WQ0OGhRlZhuhyOtkB56KGDJPXyvQY=", "user"=>{"email"=>"tania@tania.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.7ms)[0m  SELECT  1 AS one FROM `users`  WHERE `users`.`email` = BINARY 'tania@tania.com' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `users` (`created_at`, `email`, `encrypted_password`, `updated_at`) VALUES ('2014-07-10 14:01:28', 'tania@tania.com', '$2a$10$Cqngjiir6tQPdzIaBgkfou1Pc.3mSpuS7LdK98qa6Ki/KTSMTzb7a', '2014-07-10 14:01:28')[0m
+  [1m[35m (378.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  UPDATE `users` SET `current_sign_in_at` = '2014-07-10 14:01:28', `current_sign_in_ip` = '127.0.0.1', `last_sign_in_at` = '2014-07-10 14:01:28', `last_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2014-07-10 14:01:28' WHERE `users`.`id` = 3
+  [1m[36m (371.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:8000/
+Completed 302 Found in 879ms (ActiveRecord: 753.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 10:01:28 -0400
+Processing by EventsController#index as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 6.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 10:01:28 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 10:01:28 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 10:01:28 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 10:01:28 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 10:01:28 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 10:01:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 10:01:29 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 10:01:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 10:01:29 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 10:01:29 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1405000889045" for 127.0.0.1 at 2014-07-10 10:01:29 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1405000889045"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.json.jbuilder (1.3ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `id' for [:conditions, {:user_id=>3}]:Array):
+    1: json.array!(@events) do |event|
+    2:   json.extract! event, :id, :title, :description
+    3:   json.start event.start_time
+    4:   json.end event.end_time
+    5:   json.url event_url(event, format: :html)
+  app/views/events/index.json.jbuilder:2:in `block in _app_views_events_index_json_jbuilder___3961859352333608456_50204460'
+  app/views/events/index.json.jbuilder:1:in `_app_views_events_index_json_jbuilder___3961859352333608456_50204460'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.7ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.7ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb (17.0ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-07-10 10:01:35 -0400
+Processing by EventsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/_form.html.erb (27.3ms)
+  Rendered events/new.html.erb within layouts/application (43.1ms)
+Completed 200 OK in 81ms (Views: 76.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-07-10 10:04:32 -0400
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/_form.html.erb (13.7ms)
+  Rendered events/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 10:04:32 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 10:04:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 10:04:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 10:04:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 10:04:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 10:04:32 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 10:04:32 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 10:04:32 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 10:04:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 10:04:32 -0400
+
+
+Started POST "/events" for 127.0.0.1 at 2014-07-10 10:05:07 -0400
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nh+saGMupw5bv4WQ0OGhRlZhuhyOtkB56KGDJPXyvQY=", "event"=>{"title"=>"reunion skype", "description"=>"reunion de iporaitech por skype", "start_time(2i)"=>"7", "start_time(3i)"=>"10", "start_time(1i)"=>"2014", "start_time(4i)"=>"10", "start_time(5i)"=>"30", "end_time(2i)"=>"7", "end_time(3i)"=>"10", "end_time(1i)"=>"2014", "end_time(4i)"=>"11", "end_time(5i)"=>"00"}, "commit"=>"Create Event"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO `events` (`created_at`, `description`, `end_time`, `start_time`, `title`, `updated_at`) VALUES ('2014-07-10 14:05:07', 'reunion de iporaitech por skype', '2014-07-10 11:00:00', '2014-07-10 10:30:00', 'reunion skype', '2014-07-10 14:05:07')
+  [1m[36m (1115.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (794.8ms)[0m  UPDATE `events` SET `events`.`user_id` = 3 WHERE `events`.`id` = 6
+Redirected to http://localhost:8000/events/6
+Completed 302 Found in 1924ms (ActiveRecord: 1911.6ms)
+
+
+Started GET "/events/6" for 127.0.0.1 at 2014-07-10 10:05:09 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mEvent Load (0.6ms)[0m  SELECT  `events`.* FROM `events`  WHERE `events`.`id` = 6 LIMIT 1
+  Rendered events/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 67ms (Views: 63.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 10:05:10 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 10:05:10 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 10:05:10 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 10:05:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:10 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:10 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:10 -0400
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-10 10:05:14 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 10:05:15 -0400
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 10:05:15 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 10:05:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:15 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 10:05:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:15 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:15 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:15 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1405001115072" for 127.0.0.1 at 2014-07-10 10:05:15 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1405001115072"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.json.jbuilder (1.3ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `id' for [:conditions, {:user_id=>3}]:Array):
+    1: json.array!(@events) do |event|
+    2:   json.extract! event, :id, :title, :description
+    3:   json.start event.start_time
+    4:   json.end event.end_time
+    5:   json.url event_url(event, format: :html)
+  app/views/events/index.json.jbuilder:2:in `block in _app_views_events_index_json_jbuilder___3961859352333608456_50204460'
+  app/views/events/index.json.jbuilder:1:in `_app_views_events_index_json_jbuilder___3961859352333608456_50204460'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.1ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.4ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb (17.7ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-07-10 10:05:30 -0400
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/_form.html.erb (23.4ms)
+  Rendered events/new.html.erb within layouts/application (25.4ms)
+Completed 200 OK in 35ms (Views: 33.0ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-07-10 10:05:32 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"nh+saGMupw5bv4WQ0OGhRlZhuhyOtkB56KGDJPXyvQY="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:8000/
+Completed 302 Found in 7ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 10:05:32 -0400
+Processing by EventsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-07-10 10:05:32 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 10:05:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 10:05:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:32 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 10:05:32 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 10:05:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:32 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:32 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:32 -0400
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-07-10 10:05:38 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B3B5o0dxeCPWr/kMBwU/ffuMoHlwE+i9dRWe6F6FlU8=", "user"=>{"email"=>"asdf@asdf.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`email` = 'asdf@asdf.com'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE `users` SET `current_sign_in_at` = '2014-07-10 14:05:38', `last_sign_in_at` = '2014-07-09 21:46:14', `sign_in_count` = 3, `updated_at` = '2014-07-10 14:05:38' WHERE `users`.`id` = 1[0m
+  [1m[35m (251.2ms)[0m  COMMIT
+Redirected to http://localhost:8000/
+Completed 302 Found in 462ms (ActiveRecord: 253.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 10:05:38 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 14ms (Views: 9.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 10:05:38 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 10:05:38 -0400
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 10:05:38 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:38 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 10:05:38 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:38 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:38 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:38 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:38 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 10:05:38 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1405001138918" for 127.0.0.1 at 2014-07-10 10:05:38 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1405001138918"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.json.jbuilder (1.2ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `id' for [:conditions, {:user_id=>1}]:Array):
+    1: json.array!(@events) do |event|
+    2:   json.extract! event, :id, :title, :description
+    3:   json.start event.start_time
+    4:   json.end event.end_time
+    5:   json.url event_url(event, format: :html)
+  app/views/events/index.json.jbuilder:2:in `block in _app_views_events_index_json_jbuilder___3961859352333608456_50204460'
+  app/views/events/index.json.jbuilder:1:in `_app_views_events_index_json_jbuilder___3961859352333608456_50204460'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb (10.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 10:06:18 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 6.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 10:06:18 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 10:06:18 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 10:06:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 10:06:18 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 10:06:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 10:06:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 10:06:18 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 10:06:18 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 10:06:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 10:06:18 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1405001178749" for 127.0.0.1 at 2014-07-10 10:06:18 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1405001178749"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.json.jbuilder (1.0ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `id' for #<Array:0x00000005dfd838>):
+    1: json.array!(@events) do |event|
+    2:   json.extract! event, :id, :title, :description
+    3:   json.start event.start_time
+    4:   json.end event.end_time
+    5:   json.url event_url(event, format: :html)
+  app/views/events/index.json.jbuilder:2:in `block in _app_views_events_index_json_jbuilder___3961859352333608456_50204460'
+  app/views/events/index.json.jbuilder:1:in `_app_views_events_index_json_jbuilder___3961859352333608456_50204460'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb (10.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 10:06:39 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by EventsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 110ms (Views: 65.0ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 10:06:39 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 10:06:39 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 10:06:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 10:06:39 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 10:06:39 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 10:06:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 10:06:39 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 10:06:39 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 10:06:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 10:06:39 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1405001199953" for 127.0.0.1 at 2014-07-10 10:06:40 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1405001199953"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.json.jbuilder (4.4ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `id' for #<Array:0x00000005ebc3f0>):
+    1: json.array!(@events) do |event|
+    2:   json.extract! event, :id, :title, :description
+    3:   json.start event.start_time
+    4:   json.end event.end_time
+    5:   json.url event_url(event, format: :html)
+  app/views/events/index.json.jbuilder:2:in `block in _app_views_events_index_json_jbuilder__1617837332555331954_49613680'
+  app/views/events/index.json.jbuilder:1:in `_app_views_events_index_json_jbuilder__1617837332555331954_49613680'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.1ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.3ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb (16.3ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-07-10 10:06:42 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"NQibewhRuFbSp1YuSkBZFH0rQ+o0X5vXRDQm+VMuHns="}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:8000/
+Completed 302 Found in 15ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 10:06:42 -0400
+Processing by EventsController#index as HTML
+Completed 401 Unauthorized in 10ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-07-10 10:06:42 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/shared/_links.erb (1.5ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 10:06:42 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 10:06:42 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 10:06:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 10:06:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 10:06:42 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 10:06:42 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 10:06:42 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 10:06:42 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 10:06:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 10:06:42 -0400
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-07-10 10:09:46 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l7OefS6Po6kFJ+tk4P7RBu8AAD1P29aHB7Q9Y6SIt3o=", "user"=>{"email"=>"asdf@asdf.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`email` = 'asdf@asdf.com'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE `users` SET `current_sign_in_at` = '2014-07-10 14:09:46', `last_sign_in_at` = '2014-07-10 14:05:38', `sign_in_count` = 4, `updated_at` = '2014-07-10 14:09:46' WHERE `users`.`id` = 1[0m
+  [1m[35m (35.2ms)[0m  COMMIT
+Redirected to http://localhost:8000/
+Completed 302 Found in 159ms (ActiveRecord: 38.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 10:09:46 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 9.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 10:09:46 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 10:09:46 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 10:09:46 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 10:09:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 10:09:46 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 10:09:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 10:09:46 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 10:09:46 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 10:09:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 10:09:46 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1405001386852" for 127.0.0.1 at 2014-07-10 10:09:46 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1405001386852"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT `events`.* FROM `events`[0m
+  Rendered events/index.json.jbuilder (81.6ms)
+Completed 200 OK in 88ms (Views: 83.9ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 10:12:38 -0400
+Processing by EventsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 500 Internal Server Error in 22ms
+
+NoMethodError (undefined method `attr_accessible' for #<Class:0x007f6ca412c830>):
+  app/models/event.rb:3:in `<class:Event>'
+  app/models/event.rb:1:in `<top (required)>'
+  app/controllers/events_controller.rb:7:in `index'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 10:15:20 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 6.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 10:15:20 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 10:15:20 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 10:15:20 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 10:15:20 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 10:15:20 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 10:15:20 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 10:15:20 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 10:15:20 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 10:15:20 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 10:15:20 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1405001720669" for 127.0.0.1 at 2014-07-10 10:15:20 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1405001720669"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.json.jbuilder (1.6ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `id' for #<Array:0x00000005d66bb8>):
+    1: json.array!(@events) do |event|
+    2:   json.extract! event, :id, :title, :description
+    3:   json.start event.start_time
+    4:   json.end event.end_time
+    5:   json.url event_url(event, format: :html)
+  app/views/events/index.json.jbuilder:2:in `block in _app_views_events_index_json_jbuilder__1617837332555331954_49613680'
+  app/views/events/index.json.jbuilder:1:in `_app_views_events_index_json_jbuilder__1617837332555331954_49613680'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.2ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.4ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb (16.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 10:18:31 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 51ms (Views: 32.8ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 10:18:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 10:18:31 -0400
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 10:18:31 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 10:18:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 10:18:31 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 10:18:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 10:18:31 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 10:18:31 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 10:18:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 10:18:31 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1405001911592" for 127.0.0.1 at 2014-07-10 10:18:31 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1405001911592"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.json.jbuilder (1.2ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (Unknown key: :conditions. Valid keys are: :start, :batch_size):
+    1: json.array!(@events) do |event|
+    2:   json.extract! event, :id, :title, :description
+    3:   json.start event.start_time
+    4:   json.end event.end_time
+  app/views/events/index.json.jbuilder:1:in `_app_views_events_index_json_jbuilder__1617837332555331954_49613680'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.2ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.3ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb (18.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 10:18:33 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 10:18:33 -0400
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 10:18:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 10:18:33 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 10:18:33 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 10:18:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 10:18:33 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 10:18:33 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 10:18:33 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 10:18:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 10:18:33 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1405001913338" for 127.0.0.1 at 2014-07-10 10:18:33 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1405001913338"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.json.jbuilder (1.3ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (Unknown key: :conditions. Valid keys are: :start, :batch_size):
+    1: json.array!(@events) do |event|
+    2:   json.extract! event, :id, :title, :description
+    3:   json.start event.start_time
+    4:   json.end event.end_time
+  app/views/events/index.json.jbuilder:1:in `_app_views_events_index_json_jbuilder__1617837332555331954_49613680'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.2ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.4ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb (18.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 10:19:25 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 7.2ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 10:19:25 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 10:19:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 10:19:25 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 10:19:25 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 10:19:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 10:19:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 10:19:25 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 10:19:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 10:19:25 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 10:19:25 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1405001965618" for 127.0.0.1 at 2014-07-10 10:19:25 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1405001965618"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.json.jbuilder (0.8ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (Unknown key: :conditions. Valid keys are: :start, :batch_size):
+    1: json.array!(@events) do |event|
+    2:   json.extract! event, :id, :title, :description
+    3:   json.start event.start_time
+    4:   json.end event.end_time
+  app/views/events/index.json.jbuilder:1:in `_app_views_events_index_json_jbuilder__1617837332555331954_49613680'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb (10.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 10:19:45 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 6.4ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 10:19:45 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 10:19:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 10:19:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 10:19:45 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 10:19:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 10:19:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 10:19:45 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 10:19:45 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 10:19:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 10:19:45 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1405001985731" for 127.0.0.1 at 2014-07-10 10:19:45 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1405001985731"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.json.jbuilder (1.2ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (Unknown key: :conditions. Valid keys are: :start, :batch_size):
+    1: json.array!(@events) do |event|
+    2:   json.extract! event, :id, :title, :description
+    3:   json.start event.start_time
+    4:   json.end event.end_time
+  app/views/events/index.json.jbuilder:1:in `_app_views_events_index_json_jbuilder__1617837332555331954_49613680'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb (10.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 10:23:02 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mEvent Load (1.1ms)[0m  SELECT `events`.* FROM `events`  WHERE `events`.`id` IN ('all', '---\n:conditions:\n  :user_id: !ruby/object:User\n    attributes:\n      id: 1\n      email: asdf@asdf.com\n      encrypted_password: \"$2a$10$N5JYvA6gbkm9J3HlE/HaWOQpWRuJAF5S.Vd6e8IfIhCa.j.54Z4Vm\"\n      reset_password_token: \n      reset_password_sent_at: \n      remember_created_at: \n      sign_in_count: 4\n      current_sign_in_at: 2014-07-10 14:09:46.000000000 Z\n      last_sign_in_at: 2014-07-10 14:05:38.000000000 Z\n      current_sign_in_ip: 127.0.0.1\n      last_sign_in_ip: 127.0.0.1\n      created_at: 2014-07-09 21:28:06.000000000 Z\n      updated_at: 2014-07-10 14:09:46.000000000 Z\n')
+Completed 404 Not Found in 25ms
+
+ActiveRecord::RecordNotFound (Couldn't find all Events with 'id': (all, {:conditions=>{:user_id=>#<User id: 1, email: "asdf@asdf.com", encrypted_password: "$2a$10$N5JYvA6gbkm9J3HlE/HaWOQpWRuJAF5S.Vd6e8IfIhC...", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 4, current_sign_in_at: "2014-07-10 14:09:46", last_sign_in_at: "2014-07-10 14:05:38", current_sign_in_ip: "127.0.0.1", last_sign_in_ip: "127.0.0.1", created_at: "2014-07-09 21:28:06", updated_at: "2014-07-10 14:09:46">}}) (found 0 results, but was looking for 2)):
+  app/controllers/events_controller.rb:7:in `index'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 10:24:09 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 500 Internal Server Error in 23ms
+
+NoMethodError (undefined method `where' for #<EventsController:0x00000006223b38>):
+  app/controllers/events_controller.rb:7:in `index'
+
+
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 10:24:17 -0400
+Processing by EventsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 7.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 10:24:18 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 10:24:18 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 10:24:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 10:24:18 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 10:24:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 10:24:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 10:24:18 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 10:24:18 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 10:24:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 10:24:18 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1405002258125" for 127.0.0.1 at 2014-07-10 10:24:18 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1405002258125"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mEvent Load (0.4ms)[0m  SELECT `events`.* FROM `events`  WHERE `events`.`user_id` = 1
+  Rendered events/index.json.jbuilder (12.6ms)
+Completed 200 OK in 19ms (Views: 14.8ms | ActiveRecord: 1.9ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-07-10 10:24:24 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"McMn9X7RH2ppRa8z2avXUOUkyz6Lja4OWQ3su4lY0vE="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:8000/
+Completed 302 Found in 7ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 10:24:24 -0400
+Processing by EventsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-07-10 10:24:24 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 10:24:24 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 10:24:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 10:24:24 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 10:24:24 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 10:24:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 10:24:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 10:24:24 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 10:24:24 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 10:24:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 10:24:25 -0400
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-07-10 10:24:33 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3bqsNPHWP6zF0mG7H7F7zR1FG0Y9/idjYo1H9fIjXms=", "user"=>{"email"=>"tania@tania.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`email` = 'tania@tania.com'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE `users` SET `current_sign_in_at` = '2014-07-10 14:24:33', `sign_in_count` = 2, `updated_at` = '2014-07-10 14:24:33' WHERE `users`.`id` = 3
+  [1m[36m (292.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:8000/
+Completed 302 Found in 404ms (ActiveRecord: 293.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 10:24:33 -0400
+Processing by EventsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 15ms (Views: 11.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 10:24:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 10:24:33 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 10:24:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 10:24:33 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 10:24:33 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 10:24:33 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 10:24:33 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 10:24:33 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 10:24:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 10:24:33 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1405002273582" for 127.0.0.1 at 2014-07-10 10:24:33 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1405002273582"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mEvent Load (0.3ms)[0m  SELECT `events`.* FROM `events`  WHERE `events`.`user_id` = 3
+  Rendered events/index.json.jbuilder (1.8ms)
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/events/6.html" for 127.0.0.1 at 2014-07-10 10:24:53 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mEvent Load (0.1ms)[0m  SELECT  `events`.* FROM `events`  WHERE `events`.`id` = 6 LIMIT 1
+  Rendered events/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 27ms (Views: 7.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-10 10:24:58 -0400
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered events/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-07-10 10:25:00 -0400
+Processing by EventsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered events/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 15ms (Views: 12.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 10:25:00 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 10:25:00 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 10:25:00 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 10:25:00 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 10:25:00 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 10:25:00 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 10:25:00 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 10:25:00 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 10:25:00 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 10:25:00 -0400
+
+
+Started GET "/events.json?start=1404014400&end=1407643200&_=1405002300116" for 127.0.0.1 at 2014-07-10 10:25:00 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1404014400", "end"=>"1407643200", "_"=>"1405002300116"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mEvent Load (0.2ms)[0m  SELECT `events`.* FROM `events`  WHERE `events`.`user_id` = 3
+  Rendered events/index.json.jbuilder (2.3ms)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-07-10 13:29:14 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ju6EzDLSU8kIHVZ3KynkyLVmhHjgDVQJDzWSfVt1enI="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:8000/
+Completed 302 Found in 8ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 13:29:14 -0400
+Processing by EventsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-07-10 13:29:14 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered /home/yoshixtd/.rvm/gems/ruby-2.1.2@calendar/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-07-10 13:29:14 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-10 13:29:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-10 13:29:14 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-07-10 13:29:14 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-10 13:29:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-10 13:29:14 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-07-10 13:29:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-10 13:29:14 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-07-10 13:29:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-10 13:29:14 -0400

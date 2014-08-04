@@ -6,13 +6,13 @@ The app provides a calendar for every user, where the users can record their eve
 The events are saved in a mysql database.
 User B can't see User A events..
 
-= Ruby version: 2.1.2
+Ruby version: 2.1.2
 
-= Rails version: 4.1.4 
+Rails version: 4.1.4 
 
-= Database engine: Mysql 
+Database engine: Mysql 
 
-= To use it:
+To use it:
 
 <code> $ bundle install </code>
 

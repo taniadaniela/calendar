@@ -1,17 +1,24 @@
 == README
 
-This is a rails 4 app that use the gem 'fullcalendar-rails' to create a calendar that organize events and for authentication gem 'devise'..
+This is a rails 4 app that use the gem 'fullcalendar-rails' to create a calendar that organize events, for authentication is used the gem 'devise'..
 
-The app provides a calendar for every user where the users can record their events.
+The app provides a calendar for every user, where the users can record their events.
 The events are saved in a mysql database.
 User B can't see User A events..
 
-Ruby version: 2.1.2
+**Ruby version: 2.1.2**
 
-Rails version: 4.1.4
+**Rails version: 4.1.4**
 
-Database engine: Mysql
+**Database engine: Mysql**
 
-To use it just run bundle install, rake db:create, rake db:migrate, then rails s.
+**To use it: **
+<code> $ bundle install </code>
+
+<code> rake db:create </code> 
+
+<code>rake db:migrate </code>
+
+<code> rails s </code>
 
 
